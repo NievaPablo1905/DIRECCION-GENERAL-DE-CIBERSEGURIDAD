@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dirección General de Ciberseguridad</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffffff;
+            color: rgb(154, 11, 11);
+            padding: 20px 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header img {
+            height: 50px;
+            margin: 0 15px;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin: 0;
+            text-align: center;
+            color: #ffdd00;
+            font-family: 'Arial', sans-serif;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            letter-spacing: 2px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+        }
+        main h2 {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #000000;
+            text-align: center;
+        }
+        main p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #ff0000;
+            text-align: justify;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .service-item {
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .service-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .service-item h3 {
+            margin: 15px 0;
+            font-size: 1.5rem;
+            color: #2c3e50;
+        }
+        .service-item p {
+            padding: 0 10px 15px;
+            color: #555;
+        }
+        .service-item a {
+            display: inline-block;
+            margin: 10px 0;
+            padding: 10px 20px;
+            background-color: #2c3e50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .service-item a:hover {
+            background-color: #6b739d;
+        }
+        footer {
+            background-color: #6b739d;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="C:/Users/pablo/OneDrive/Desktop/PAGINA WEB DGC/Imagenes/policia escudo.png" alt="Logo 1">
+        <h1>DIRECCIÓN GENERAL DE CIBERSEGURIDAD</h1>
+        <img src="C:/Users/pablo/OneDrive/Desktop/PAGINA WEB DGC/Imagenes/Ciber2024.png.jpg" alt="Logo 2">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">Sobre Nosotros</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>Sobre Nosotros</h2>
+            <p>La Dirección General de Ciberseguridad, perteneciente a la Policía de la Provincia de Salta, se encarga de combatir delitos informáticos, enfocándose en la prevención y el uso seguro de las redes sociales.</p>
+        </section>
+        <section id="services">
+            <h2>Servicios</h2>
+            <div class="services">
+                <div class="service-item">
+                    <img src="C:/Users/pablo/OneDrive/Desktop/PAGINA WEB DGC/Imagenes/DGC.jpg" alt="Charlas Preventivas">
+                    <h3>Charlas Preventivas</h3>
+                    <p>Educamos a la sociedad sobre cómo prevenir delitos cibernéticos y proteger sus datos personales.</p>
+                    <a href="charlas.html" target="_blank">Ver más</a>
+                </div>
+                <div class="service-item">
+                    <img src="C:/Users/pablo/OneDrive/Desktop/PAGINA WEB DGC/Imagenes/DGC.jpg" alt="Videos Preventivos">
+                    <h3>Videos Preventivos</h3>
+                    <p>Producción de contenido audiovisual para concientizar sobre ciberseguridad.</p>
+                    <a href="videos.html" target="_blank">Ver más</a>
+                </div>
+                <div class="service-item">
+                    <img src="C:/Users/pablo/OneDrive/Desktop/PAGINA WEB DGC/Imagenes/DGC.jpg" alt="Folletos">
+                    <h3>Folletos</h3>
+                    <p>Distribuimos materiales impresos con consejos prácticos sobre seguridad en línea.</p>
+                    <a href="folletos.html" target="_blank">Ver más</a>
+                </div>
+                <div class="service-item">
+                    <img src="C:/Users/pablo/OneDrive/Desktop/PAGINA WEB DGC/Imagenes/DGC.jpg" alt="Noticias">
+                    <h3>Noticias</h3>
+                    <p>Accede a información actualizada sobre eventos y procedimientos relacionados con ciberseguridad.</p>
+                    <a href="noticias.html" target="_blank">Ver más</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Agte Nieva Pablo Fernando LP 24125</p>
+    </footer>
+</body>
+</html>
